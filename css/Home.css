@@ -1,0 +1,148 @@
+
+
+
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    font-size:15px;
+        padding:10px;
+}
+
+.navbar-custom .dropdown-menu .megamenu {
+    background-color: mediumspringgreen;
+    border-radius:10px;
+}
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+.navbar-custom .dropdown-item .megamenu:hover,
+.navbar-custom .dropdown-item .megamenu:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+  ]
+}
+.megamenu {
+  position: static;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+    margin-left:200px;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+hr{
+    height:3px; width:100px; background-color:mediumspringgreen;
+}
+.container-fluid,.Top Populor Course{
+     text-align: center; margin-top:60px; font-size:25px;
+}
+
+/*galary*/
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/*our team*/
+.our-team{ text-align: center; }
+.our-team .pic{
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+.our-team .pic:before,
+.our-team .pic:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 100px 0 0 rgba(255, 255, 255, 0.01) inset, 0 100px 0 rgba(255, 255, 255, 0.01) inset, -100px 0 0 rgba(255, 255, 255, 0.01) inset, 0 -100px 0 rgba(255, 255, 255, 0.01) inset;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 300ms linear 0s;
+}
+.our-team .pic:after{
+    transform: rotate(45deg);
+}
+.our-team:hover .pic:after,
+.our-team:hover .pic:before{
+    box-shadow: 5px 0 0 rgba(255, 0, 0, 0.5) inset, 0 5px 0 rgba(252, 150, 0, 0.5) inset, -5px 0 0 rgba(0, 255, 0, 0.5) inset, 0 -5px 0 rgba(0, 150, 255, 0.5) inset;
+}
+.our-team .pic img{
+    width: 150px;
+    height: 150px;
+    transform: scale(1);
+    transition: all 300ms linear 0s;
+}
+.our-team:hover .pic img{
+    transform: scale(1.1);
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #d33f49;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #333;
+    text-transform: capitalize;
+}
+.our-team .social{
+    padding: 0;
+    margin: 25px 0 0 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 0 15px 0 15px;
+    background: #d33f49;
+    font-size: 15px;
+    color: #fff;
+    transition: all 300ms linear 0s;
+}
+.our-team:hover .social li a{
+    border-radius: 15px 0 15px 0;
+    background: #eca400;
+}
+@media only screen and (max-width: 767px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+
+
+
