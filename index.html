@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Home Page</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/3fc2e56353.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+<link href="css/Home.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+    <div class="container-fluid" style="background-color:#242C42; margin-top:0px;">
+			<div class="row" style="padding:10px;">
+				<div class="col-sm-5 text-center text-white"><h5>Welcome to my online learning point</h5></div>
+				<div class="col-sm-3 text-center"></div>
+				<div class="col-sm-4 text-center text-white">
+                <span class="fa fa-envelope" style="color:white;  font-size:11px;"></span>&nbsp;&nbsp; <span style="font-size:15px;">H Gpaurai@gmail.com</span>
+				<span class="fa fa-phone-alt" style="color:limegreen;  font-size:15px; margin-left:8px;"></span>&nbsp; <span style="color:white; font-size:11px;">1800-5007-8887</span>
+                </div>
+		</div>
+	</div>
+    
+    
+    
+	<nav class="navbar navbar-expand-md sticky-top navbar-custom shadow p-3 mb-5 bg-white" style="background:linear-gradient(50deg,#07faa9 50%,white 50%);">  
+  <a class="navbar-brand" href=""><img src="image/SMART%20PROGRAMING.png" alt="" style="height:50px; width:250px; margin:5px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-uppercase" href="http://localhost/Tutorial%20Point/">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-uppercase" href="#">About us</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link text-uppercase" href="http://localhost/Tutorial%20Point/register.php?">Join Us</a>
+      </li>
+      <!-- Megamenu-->
+      <li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle  text-uppercase">course</a>
+        <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+          <div class="container">
+            <div class="row shadow p-3 mb-5 bg-white w-100" style="margin-top:-20px;">
+                    <div class="col-lg-4 mb-4">
+                      <h6 class="font-weight-bold text-uppercase">Programing Language </h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link">Java Programing</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">PHP</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Python</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Android</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                      <h6 class="text-uppercase">Designing Tool</h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link">Html</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">CSS</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Javascript</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Bootstrap</a></li>
+                      </ul>
+                    </div>
+                <div class="col-lg-4 mb-4">
+                      <h6 class="text-uppercase">Designing Tool</h6>
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link">Html</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">CSS</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Javascript</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Bootstrap</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-uppercase" href="http://localhost/Tutorial%20Point/contact%20us.php">Contact us</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link text-uppercase" href="http://localhost/Tutorial%20Point/login.php?">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    
+        
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="margin-top:-47px;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/slider%204.jpg" class="d-block w-100" alt="..." style="height: 450px; width:100%;">
+         <div class="carousel-caption d-none d-md-block">
+            <h5  style="margin-top:-300px; font-size:40px; font-weight:700;" class="heading animated flipInX delay-1s">welcome to</h5> 
+            <p class="sub-heading animated rollIn delay-2s">our my Learning Point</p>
+          <p class="govt animated flipInX delay-3s" style="text-align: justify; font-size:18px; margin-left:100px; margin-top:20px;">Hello friends, you can easily read all types of courses on this website such as technical topics,<br> programming language, courses related to website development, internet and ecommerce as<br> <span style="margin-left:250px;">well as computer tips and tricks. </span></p>
+           <a  type="button" href="" class="btn  btn-outline-success mt-5 animated infinite bounce delay-1s" style="border-radius: 10px;">Lets Started</a>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/slider%203.jpg" class="d-block w-100" alt="..." style="height: 450px; width:100%;">
+       <div class="carousel-caption d-none d-md-block">
+           <h5  style="margin-top:-300px; font-size:40px; font-weight:700;">welcome to</h5> 
+          <p>our my Learning Point</p>
+          <p style="text-align: justify; font-size:18px; margin-left:100px; margin-top:20px;">Hello friends, you can easily read all types of courses on this website such as technical topics,<br> programming language, courses related to website development, internet and ecommerce as<br> <span style="margin-left:250px;">well as computer tips and tricks. </span></p>
+           <a  type="button" href="" class="btn  btn-outline-success mt-5 animated infinite bounce delay-0s" style="border-radius: 10px;">Lets Started</a>
+        </div>
+
+    </div>
+    <div class="carousel-item">
+      <img src="image/slider%204.jpg" class="d-block w-100" alt="..." style="height: 450px; width:100%;">
+    <div class="carousel-caption d-none d-md-block">
+    <h5  style="margin-top:-300px; font-size:40px; font-weight:700;">welcome to</h5> 
+            <p>our my Learning Point</p>
+          <p style="text-align: justify; font-size:18px; margin-left:100px; margin-top:20px;">Hello friends, you can easily read all types of courses on this website such as technical topics,<br> programming language, courses related to website development, internet and ecommerce as<br> <span style="margin-left:250px;">well as computer tips and tricks. </span></p>
+           <a  type="button" href="" class="btn  btn-outline-success mt-5 animated infinite bounce delay-0s" style="border-radius: 10px;">Lets Started</a>    
+        </div>
+    </div>
+    
+  </div>
+</div>
+   
+        
+        <div class="container-fluid " style="background:linear-gradient(66deg,#07faa9 50%,white 50%);">
+     <div class="Top Populor Course">Populor Language<hr></div>
+    <div class="row " style="margin:60px;">
+<div class="col-sm-3">
+        <div class="card shadow p-3 mb-5 bg-white" style="border-radius:5%;">
+  <img src="image/1.jpg" class="card-img-top" alt="..." style="height:130px;">
+  <div class="card-body">
+    <h5 class="card-title">Android</h5>
+    <p class="card-text" style="font-size:16px; text-align: justify;">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software.</p>
+   <a type="button" href="http://localhost/Tutorial%20Point/login.php?" class="btn  btn-outline-dark" style="border-radius: 10px;">Enroll Now</a>
+  </div>
+</div>
+        </div>
+        <div class="col-sm-3"> 
+            <div class="card shadow p-3 mb-5 bg-white" style="border-radius:5%;">
+  <img src="image/corejava.jpg" class="card-img-top" alt="..." style="height:130px;">
+  <div class="card-body">
+    <h5 class="card-title">Core Java</h5>
+    <p class="card-text" style="font-size:16px; text-align: justify;">Java is a general purpose object oriented programing language. it was developed by james gausling for sunmicrosystem.</p>
+     <a type="button" href="http://localhost/Tutorial%20Point/login.php?" class="btn  btn-outline-dark" style="border-radius: 10px;">Enroll Now</a>
+  </div>
+</div>
+        </div>
+        <div class="col-sm-3">
+         <div class="card shadow p-3 mb-5 bg-white" style="border-radius:5%;">
+  <img src="image/python.jpg" class="card-img-top" alt="..." style="height:130px;">
+  <div class="card-body">
+    <h5 class="card-title">Python</h5>
+    <p class="card-text" style="font-size:16px; text-align:justify;">Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum released in 1991.</p>
+  <a type="button" href="http://localhost/Tutorial%20Point/login.php?" class="btn  btn-outline-dark" style="border-radius: 10px;">Enroll Now</a>
+  </div>
+</div>
+        </div>
+         <div class="col-sm-3">
+           <div class="card shadow p-3 mb-5 bg-white" style="border-radius:5%;">
+  <img src="image/php.png" class="card-img-top" alt="..." style="height:130px;">
+  <div class="card-body">
+    <h5 class="card-title">PHP</h5>
+    <p class="card-text" style="font-size:16px; text-align: justify;">PHP is Stands for PHP Hypertext Preprocesser. It is used to create a dynamic website. PHP is a popular Programing Language.</p>
+    <a type="button" href="http://localhost/Tutorial%20Point/login.php?" class="btn  btn-outline-dark" style="border-radius: 10px;">Enroll Now</a>
+  </div>
+</div>
+        </div>
+  </div>
+  </div>
+    
+    <div class="container-fluid jumbotron">
+            <div class="Top Populor Course">Designing Tool<hr></div>
+    <div class="row" style="margin:60px;">
+        <div class="col-sm-3">
+        <div class="card shadow p-3 mb-5 bg-white" style="border-radius:5%;">
+  <img src="image/html.png" class="card-img-top" alt="..." style="height:130px;">
+  <div class="card-body">
+    <h5 class="card-title">HTML</h5>
+      <p class="card-text stretched-linky" style="font-size:16px; text-align: justify;">HTMl is stands for Hyper text markup language. It was devoloped by Team Berners Lea in 1991.</p> 
+   <a type="button"href="http://localhost/Tutorial%20Point/login.php?"  class="btn  btn-outline-dark" style="border-radius: 10px;">Enroll Now</a>
+            </div>
+</div>
+        </div>
+        <div class="col-sm-3"> 
+            <div class="card shadow p-3 mb-5 bg-white" style="border-radius:5%;">
+  <img src="image/css.png" class="card-img-top" alt="..." style="height:130px;">
+  <div class="card-body">
+    <h5 class="card-title">CSS</h5>
+    <p class="card-text" style="font-size:16px; text-align: justify;">CSS is stands for cascading stylesheet. css language is used to include color,font on web.</p>
+     <a type="button" href="http://localhost/Tutorial%20Point/login.php?" class="btn  btn-outline-dark" style="border-radius: 10px;">Enroll Now</a>
+  </div>
+</div>
+        </div>
+        <div class="col-sm-3">
+         <div class="card shadow p-3 mb-5 bg-white" style="border-radius:5%;">
+  <img src="image/javascript.jpg" class="card-img-top" alt="..." style="height:130px;">
+  <div class="card-body">
+    <h5 class="card-title">Javascipt</h5>
+    <p class="card-text" style="font-size:15.55px; text-align:justify;">JavaScript is Programming Language for  Web. you can calculate, manipulate and validate data</p>
+ <a type="button" class="btn  btn-outline-dark" style="border-radius: 10px;">Enroll Now</a>
+  </div>
+</div>
+        </div>
+         <div class="col-sm-3">
+           <div class="card shadow p-3 mb-5 bg-white" style="border-radius:5%;">
+  <img src="image/boot.jpg" class="card-img-top" alt="..." style="height:130px;">
+  <div class="card-body">
+    <h5 class="card-title">Bootstrap</h5>
+    <p class="card-text" style="font-size:16px; text-align: justify;">Bootstrap is the framework of html css javascript. it is used to create responsive website.</p>
+     <a type="button" href="http://localhost/Tutorial%20Point/login.php?" class="btn  btn-outline-dark" style="border-radius: 10px;">Enroll Now</a>
+  </div>
+</div>
+        </div>
+     </div>
+    </div>
+   
+        
+        <div class="container-fluid" style="margin-top:100px;">
+     <div class="Top Populor Course">Image Galary<hr></div>
+	<div class="row" style="margin:60px;">
+        <div class="col-sm-6">
+        <h3 style="color:black;  font-size:20px; text-align:left;">HTML</h3>
+        <div class="progress" style="height:22px">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%; height:22px;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3 style="color:black;  font-size:20px; text-align:left;">CSS</h3>
+        <div class="progress" style="height:22px">
+         <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 25%;  height:22px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3 style="color:black;  font-size:20px; text-align:left;">Javascript</h3>
+         <div class="progress" style="height:22px">
+         <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 50%;  height:22px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+        <h3 style="color:black;  font-size:20px; text-align:left;">Bootstrap</h3>
+        <div class="progress" style="height:22px">
+        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 75%;  height:22px;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+       </div>
+            <h3 style="color:black;  font-size:20px; text-align:left;">PHP</h3>
+       <div class="progress" style="height:22px">
+       <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 100%; height:22px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+       </div>
+        </div>
+        <div class="col-sm-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14409.43629606048!2d82.4369894199898!3d25.459682814378873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398fe27745f8ae43%3A0x335812283583a106!2z4KSV4KWB4KSC4KSm4KSwLCDgpIngpKTgpY3gpKTgpLAg4KSq4KWN4KSw4KSm4KWH4KS2IDIyMTQwNA!5e0!3m2!1shi!2sin!4v1602415446186!5m2!1shi!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+            </div>
+        </div>
+    
+<div class="container-fluid" style="margin-top:100px;">
+     <div class="Top Populor Course">Image Galary<hr></div>
+	<div class="row" style="margin:60px;">
+		
+            <div class="col-sm-3">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                   data-image="image/gal%201.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="image/gal%201.jpg"
+                         alt="Another alt text">
+                </a>
+            </div>
+
+
+
+            <div class="col-sm-3">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                   data-image="image/gal%202.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="image/gal%202.jpg"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                   data-image="image/subscribe.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="image/subscribe.jpg"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                   data-image="image/search%20image.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="image/search%20image.jpg"
+                         alt="Another alt text">
+                </a>
+            </div>
+       </div>
+</div>
+    <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="image-gallery-title"></h4>
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+                        </button>
+
+                        <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+	
+        
+        
+    <div class="container-fluid jumbotron" style="margin-top:100px;">
+         <div class="Top Populor Course">Our Amazing Team<hr></div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="image/team.jpg">
+                </div>
+                <h3 class="title">Prince Kumar</h3>
+                <span class="post">Web Developer</span>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul>
+            </div>
+        </div>
+ 
+       <div class="col-sm-4">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="image/dk.jpg">
+                </div>
+                <h3 class="title">Dinesh Kumar</h3>
+                <span class="post">Web Developer</span>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul>
+            </div>
+        </div>
+         <div class="col-sm-4">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="image/pramod.jpg">
+                </div>
+                <h3 class="title">Pramod Kumar</h3>
+                <span class="post">Web Developer</span>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br>
+  <img src="wave1.png" alt="" style="background-color:#0D2235; height:100px;">
+        <!-- Footer -->
+<footer class="page-footer font-small text-white" style="background-color:#0D2235; padding-top:20px; padding-bottom:30px;">
+
+`  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+    <img src="image/SMART%20PROGRAMING.png" style="height:33px; width:220px;">
+        <p style="text-align: justify; margin-top:20px;">Here you can read any subject related to technical topics and also you can learn programming language and designing like HTML CSS bootstrap on this website in an easy way.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Products</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Home</a>
+        </p>
+        <p>
+          <a href="#!">About us</a>
+        </p>
+        <p>
+          <a href="#!">Register</a>
+        </p>
+        <p>
+          <a href="#!">Login</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">HTML</a>
+        </p>
+        <p>
+          <a href="#!">CSS</a>
+        </p>
+        <p>
+          <a href="#!">Java Script</a>
+        </p>
+        <p>
+          <a href="#!">Bootstrap</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p style="font-size:15px;">
+          <i class="fa fa-home mr-3"></i> Govt Polytechnic Aurai &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bhadohi</p>
+        <p style="font-size:15px;">
+          <i class="fa fa-envelope mr-3"></i> LearningPoint@gmail.com</p>
+        <p style="font-size:15px;">
+          <i class="fa fa-phone-alt mr-3"></i>  8573064324</p>
+        <p style="font-size:15px;">
+          <i class="fa fa-print mr-3"></i> 9305732658</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      
+         devoloped And Design by
+   <a href=""><img src="image/SMART%20PROGRAMING.png" style="height:25px; width:150px; margin-left: 5px;"></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+    <script type="text/javascript">
+    let modalId = $('#image-gallery');
+
+$(document)
+  .ready(function () {
+
+    loadGallery(true, 'a.thumbnail');
+
+    //This function disables buttons when needed
+    function disableButtons(counter_max, counter_current) {
+      $('#show-previous-image, #show-next-image')
+        .show();
+      if (counter_max === counter_current) {
+        $('#show-next-image')
+          .hide();
+      } else if (counter_current === 1) {
+        $('#show-previous-image')
+          .hide();
+      }
+    }
+
+    /**
+     *
+     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
+     * @param setClickAttr  Sets the attribute for the click handler.
+     */
+
+    function loadGallery(setIDs, setClickAttr) {
+      let current_image,
+        selector,
+        counter = 0;
+
+      $('#show-next-image, #show-previous-image')
+        .click(function () {
+          if ($(this)
+            .attr('id') === 'show-previous-image') {
+            current_image--;
+          } else {
+            current_image++;
+          }
+
+          selector = $('[data-image-id="' + current_image + '"]');
+          updateGallery(selector);
+        });
+
+      function updateGallery(selector) {
+        let $sel = selector;
+        current_image = $sel.data('image-id');
+        $('#image-gallery-title')
+          .text($sel.data('title'));
+        $('#image-gallery-image')
+          .attr('src', $sel.data('image'));
+        disableButtons(counter, $sel.data('image-id'));
+      }
+
+      if (setIDs == true) {
+        $('[data-image-id]')
+          .each(function () {
+            counter++;
+            $(this)
+              .attr('data-image-id', counter);
+          });
+      }
+      $(setClickAttr)
+        .on('click', function () {
+          updateGallery($(this));
+        });
+    }
+  });
+
+// build key actions
+$(document)
+  .keydown(function (e) {
+    switch (e.which) {
+      case 37: // left
+        if ((modalId.data('bs.modal') || {})._isShown && $('#show-previous-image').is(":visible")) {
+          $('#show-previous-image')
+            .click();
+        }
+        break;
+
+      case 39: // right
+        if ((modalId.data('bs.modal') || {})._isShown && $('#show-next-image').is(":visible")) {
+          $('#show-next-image')
+            .click();
+        }
+        break;
+
+      default:
+        return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+  });
+</script>
+    
+
+    </body>
+</html>
